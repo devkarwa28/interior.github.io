@@ -1066,4 +1066,51 @@ line-height: 48px;
         text-align: center;
         margin-bottom: 32px;
       }
+      footer {
+        padding-top: 80px;
+        padding-bottom: 0px;
+      }
+      .footer-1{
+        text-align: center;
+      }
+      .footer-1 p{
+        margin: auto;
+        margin-top: 18px;
+      }
+      .footer-2 a {
+        font-size: 20px;
+      }
+      footer ul{
+        margin-bottom: 32px;
+      }
+      .footer-3 {
+        margin-left: 0px;
+      }
+      .footer-3 a {
+        font-size: 20px;
+      }
+      .footer-4 {
+        margin-left: 0px;
+        margin-bottom: 30px;
+      }
+      .footer-4 p {
+        font-size: 20px;
+        margin-bottom: 24px;
+      }
+      .footer-4 h3 {
+        width: 100%;
+        height: fit-content;
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+      .copyright-section h1 {
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
 }
