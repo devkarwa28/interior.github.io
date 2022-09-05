@@ -898,7 +898,7 @@ margin-bottom: 0px;
         font-size: 38px;
         line-height: 45px;
         margin-bottom: 24px;
-        text-align: center;
+        text-align: left;
       }
       .sec2-content p {
         width: 100%;
@@ -906,10 +906,10 @@ margin-bottom: 0px;
         font-size: 18px;
         line-height: 28px;
         margin-bottom: 0px;
-        text-align: center;
+        text-align: left;
       }
       .call-pill{
-        justify-content: center;
+        justify-content: flex-start;
       }
       .call {
         height: 76px;
@@ -1041,6 +1041,7 @@ margin-bottom: 0px;
         width: 100%;
         font-size: 19px;
         height: fit-content;
+        margin-bottom: 16px;
 
       }
       .sec8-container {
@@ -1356,9 +1357,8 @@ padding-bottom: 70px;
   width: 100%;
   height: fit-content;
 }
-.footer-2{
-  display: grid;
-justify-content: center;
+.footer-4 {
+  margin-left: 0px;
 }
 }
 @media only screen and (min-width: 992px) and (max-width: 1300px) {
