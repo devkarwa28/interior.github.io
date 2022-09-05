@@ -16,9 +16,6 @@
     box-sizing: border-box;
     list-style: none;
 }
-/* loader css */
-
-/* loader css ended */
 .item-center {
     display: flex !important;
     justify-content: center !important;
