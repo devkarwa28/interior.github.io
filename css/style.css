@@ -456,6 +456,7 @@ nav ul li:hover a::after {
 .sec5-card-main-img {
     width: 100%;
     height: 650px;
+    border-radius: 0px 80px 0px 0px;
 }
 
 .sec5-card-content {
@@ -577,6 +578,7 @@ nav ul li:hover a::after {
 .sec7-card .main-img {
     width: 100%;
     height: 290px;
+    border-radius: 22px 22px 0px 0px;
 }
 
 .sec7-card h2 {
@@ -844,9 +846,10 @@ padding-top: 7px;
     }
     .header-content h1 {
         width: 95%;
-        height: fit-content;
+        height: 100px;
         font-size: 38px;
 line-height: 48px;
+margin-bottom: 0px;
         /* text-align: center; */
     }
     .header-content p {

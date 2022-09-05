@@ -28,7 +28,6 @@
     <script src="js/owl.carousel.js"></script>
     <title>Interior</title>
 </head>
-
 <body>
     <!-- loader -->
     <div class="cssload-loader" id="loader">
@@ -537,7 +536,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="sec7-card">
                        
-                        <a href="images/sec7-1.png" data-lightbox="image-1" data-title="My caption"> <img src="images/sec7-1.png" alt="" class="main-img"></a>
+                        <a href="images/sec7-1.png" data-lightbox="image-1" data-title="Residential Interior Designer In New York, USA"> <img src="images/sec7-1.png" alt="" class="main-img"></a>
                         <h2>Residential Interior Designer In New York, USA</h2>
                         <div class="d-flex justify-content-between">
                             <h3>Kitchen Design</h3>
@@ -549,7 +548,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="sec7-card">
-                        <a href="images/sec7-2.png" data-lightbox="image-1" data-title="My caption"> <img src="images/sec7-2.png" alt="" class="main-img"></a>
+                        <a href="images/sec7-2.png" data-lightbox="image-1" data-title="Residential Interior Designer In New York, USA"> <img src="images/sec7-2.png" alt="" class="main-img"></a>
                         <h2>Residential Interior Designer In New York, USA</h2>
                         <div class="d-flex justify-content-between">
                             <h3>Living Room</h3>
@@ -561,7 +560,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="sec7-card">
-                        <a href="images/sec7-3.png" data-lightbox="image-1" data-title="My caption"> <img src="images/sec7-3.png" alt="" class="main-img"></a>
+                        <a href="images/sec7-3.png" data-lightbox="image-1" data-title="Residential Interior Designer In New York, USA"> <img src="images/sec7-3.png" alt="" class="main-img"></a>
                         <h2>Residential Interior Designer In New York, USA</h2>
                         <div class="d-flex justify-content-between">
                             <h3>Bedroom</h3>
@@ -573,7 +572,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="sec7-card">
-                        <a href="images/sec7-4.png" data-lightbox="image-1" data-title="My caption"> <img src="images/sec7-4.png" alt="" class="main-img"></a>
+                        <a href="images/sec7-4.png" data-lightbox="image-1" data-title="Residential Interior Designer In New York, USA"> <img src="images/sec7-4.png" alt="" class="main-img"></a>
                         <h2>Residential Interior Designer In New York, USA</h2>
                         <div class="d-flex justify-content-between">
                             <h3>Bedroom</h3>
@@ -585,7 +584,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="sec7-card">
-                        <a href="images/sec7-5.png" data-lightbox="image-1" data-title="My caption"> <img src="images/sec7-5.png" alt="" class="main-img"></a>
+                        <a href="images/sec7-5.png" data-lightbox="image-1" data-title="Residential Interior Designer In New York, USA"> <img src="images/sec7-5.png" alt="" class="main-img"></a>
                         <h2>Residential Interior Designer In New York, USA</h2>
                         <div class="d-flex justify-content-between">
                             <h3>Bedroom</h3>
@@ -597,7 +596,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="sec7-card">
-                        <a href="images/sec7-6.png" data-lightbox="image-1" data-title="My caption"> <img src="images/sec7-6.png" alt="" class="main-img"></a>
+                        <a href="images/sec7-6.png" data-lightbox="image-1" data-title="Residential Interior Designer In New York, USA"> <img src="images/sec7-6.png" alt="" class="main-img"></a>
                         <h2>Residential Interior Designer In New York, USA</h2>
                         <div class="d-flex justify-content-between">
                             <h3>Bedroom</h3>
@@ -741,6 +740,8 @@
 <script src="js/highlight.js"></script>
 <script src="js/app.js"></script>
 <script src="js/lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     $(document).ready(function () {
         var owl = $('.owl-carousel3');
@@ -781,6 +782,7 @@
     window.addEventListener("load", function () {
         preloder.style.display = "none";
     });
+    // typewriter
     var span = document.querySelector(".typewriter span");
 var textArr = span.getAttribute("data-text").split(", "); 
 var maxTextIndex = textArr.length; 
@@ -822,16 +824,20 @@ function deleting(textIndex, text) {
         }
     }, sPerChar * 1000); 
 }
-$('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
+// $('.count').each(function () {
+//     $(this).prop('Counter',0).animate({
+//         Counter: $(this).text()
+//     }, {
+//         duration: 3000,
+//         easing: 'swing',
+//         step: function (now) {
+//             $(this).text(Math.ceil(now));
+//         }
+//     });
+// });
+$('.count').counterUp({
+    delay: 20,
+    time: 1000
 });
 </script>
 
