@@ -107,51 +107,29 @@ nav ul li:hover a::after {
     line-height: 96px;
     /* position: relative; */
 }
-
-/* .header-content h1::before,
-.header-content h1::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.header-content h1::before {
-  background: transparent;
-  animation: typewriter var(--typewriterSpeed)
-    steps(var(--typewriterCharacters)) 1s forwards;
-    animation-iteration-count: infinite;
-}
-
-.header-content h1::after {
-  width: 0.125em;
-  background: black;
-  animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards,
-    blink 750ms steps(var(--typewriterCharacters)) infinite;
-    animation-iteration-count: infinite;
-}
-
-@keyframes typewriter {
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes blink {
-  to {
-    background: transparent;
-  }
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translate(0);
-  }
+/* typing animation */
+.typewriter {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
 } */
+}
+
+.typewriter{
+  animation: cursor 1s ease-in-out infinite;
+}
+
+@keyframes cursor {
+  from { border-color: var(--text-color); }
+  to { border-color: transparent; }
+}
+
+/* typing animation ended */
 .header-content p {
     width: 649px;
     height: 70px;
@@ -524,7 +502,6 @@ nav ul li:hover a::after {
 }
 
 .section6 h1 {
-    width: 75px;
     height: 117px;
     font-family: var(--font2);
     font-style: normal;
@@ -533,7 +510,6 @@ nav ul li:hover a::after {
     line-height: 117px;
     text-align: center;
     color: #CDA274;
-    margin: auto;
     margin-bottom: 7px;
 }
 
