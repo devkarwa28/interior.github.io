@@ -16,7 +16,9 @@
     box-sizing: border-box;
     list-style: none;
 }
+/* loader css */
 
+/* loader css ended */
 .item-center {
     display: flex !important;
     justify-content: center !important;
@@ -180,8 +182,13 @@ nav ul li:hover a::after {
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
+    transition: 300ms;
 }
-
+.header-content button:hover{
+  background: transparent;
+  color: var(--bg-main-color1);
+  border: 1px solid var(--bg-main-color1);
+}
 .fa-arrow-right {
     color: var(--bg-main-color2);
     margin-left: 14px;
@@ -328,10 +335,13 @@ nav ul li:hover a::after {
     line-height: 26px;
     margin-top: 48px;
     border: 0px;
+    transition: 300ms;
 }
 
 .sec2-content button:hover {
-    background: var(--bg-main-color2);
+  background: transparent;
+  color: var(--bg-main-color1);
+  border: 1px solid var(--bg-main-color1);
 }
 
 /* .sec2-content button:hover .sec2-content button i{
@@ -421,6 +431,10 @@ nav ul li:hover a::after {
 .section4 img {
     width: fit-content;
     margin: auto;
+}
+.lg-center{
+  display: grid;
+  justify-content: center;
 }
 
 .sec-4-logos {
@@ -609,6 +623,7 @@ nav ul li:hover a::after {
 .sec7-card h3 {
     width: 115px;
     height: 26px;
+    margin: auto 0px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -943,6 +958,7 @@ line-height: 48px;
         height: fit-content;
         border-radius: 30px;
         padding-top: 30px;
+        padding-bottom: 30px;
       }
       .sec3-container h1 {
         width: 100%;
@@ -1047,7 +1063,9 @@ line-height: 48px;
       }
       .sec7-card h2 {
         width: 100%;
-        font-size: 21px;
+        font-size: 19px;
+        height: fit-content;
+
       }
       .sec8-container {
         border-radius: 30px;
@@ -1079,6 +1097,7 @@ line-height: 48px;
       .footer-1 p{
         margin: auto;
         margin-top: 18px;
+        width: 100%;
       }
       .footer-2 a {
         font-size: 20px;
@@ -1099,6 +1118,7 @@ line-height: 48px;
       .footer-4 p {
         font-size: 20px;
         margin-bottom: 24px;
+        width: 100%;
       }
       .footer-4 h3 {
         width: 100%;
@@ -1360,5 +1380,189 @@ padding-bottom: 70px;
   width: 100%;
   height: fit-content;
 }
+.footer-2{
+  display: grid;
+justify-content: center;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  nav img {
+    margin-left: 32px;
+  }
+  nav ul{
+    margin-left: 0px;
+  }
+  nav ul li a {
+    font-size: 18px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-content {
+    margin-left: 80px;
+    padding-top: 69px;
+  }
+  .sec-1-card {
+    height: fit-content;
+    width: 100%;
+    border-radius: 32px;
+    padding: 32px 28px 32px 28px;
+  }
+  .sec-1-card p {
+    width: 100%;
+    height: fit-content;
+    font-size: 17px;
+  }
+  .sec-1-card a {
+    margin-top: 24px;
+  }
+  .section2 {
+    padding-top: 90px;
+  }
+  .sec2-content {
+    margin-top: 0px;
+  }
+  .sec2-content h1 {
+    width: 100%;
+    height: fit-content;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .sec2-content p {
+    width: 100%;
+    height: fit-content;
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .call-pill {
+    margin-top: 38px;
+  }
+  .sec2-content button {
+    margin-top: 36px;
+  }
+  .section3 {
+    padding-top: 90px;
+  }
+  .sec3-row {
+    margin-top: 32px;
+    padding-left: 9px;
+  }
+  .sec3-card {
+    height: fit-content;
+    width: 349px;
+    border-radius: 32px;
+    padding: 0;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 22px;
+    background-color: #FFFFFF;
+  }
+  .sec3-card p {
+    width: 100%;
+    height: fit-content;
+    font-size: 19px;
+    line-height: 29px;
+    margin-top: 32px;
 
+  }
+  .sec3-container h1 {
+    width: 631px;
+    height: 132px;
+    margin: auto;
+    font-size: 46px;
+    line-height: 59px;
+    text-align: center;
+  }
+  .sec3-container {
+    height: fit-content;
+    border-radius: 60px;
+    padding-top: 60px;
+    padding-bottom: 32px;
+  }
+  .section4 {
+    padding-top: 90px;
+  }
+  .lg-center{
+    display: flex;
+    justify-content: center;
+  }
+  .section4 img{
+    margin: 30px auto;
+  }
+  .section5 {
+    padding-top: 90px;
+  }
+  .section5 h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .sec5-card-main-img {
+    width: 100%;
+    height: auto;
+  }
+  .sec7-card {
+    width: 100%;
+    height: fit-content;
+  }
+  .sec7-card .main-img {
+    width: 100%;
+    height: auto;
+  }
+  .sec7-card h2 {
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 17px;
+    margin-bottom: 30px;
+    margin-left: 1px;
+  }
+  .sec7-card h3 {
+    width: 115px;
+    height: 26px;
+    margin: auto 0px;
+    margin-left: 1px;
+  }
+  .section8 h1 {
+    width: 100%;
+    height: fit-content;
+  }
+  .section8 h2 {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+  footer {
+    padding-top: 105px;
+  }
+.footer-1 p {
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+}
+.footer-2 a {
+  font-size: 20px;
+}
+.footer-3 a {
+  font-size: 20px;
+}
+.footer-4 p {
+  width: 100%;
+  height: fit-content;
+  font-size: 20px;
+}
+.footer-4 h3 {
+  width: 100%;
+  height: fit-content;
+  font-size: 20px;
+}
+.footer-4 span {
+  font-size: 20px;
+}
+
+.copyright-section h1 {
+    width: 100%;
+}
 }
