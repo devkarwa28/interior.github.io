@@ -1145,11 +1145,11 @@ footer ul li:hover a::after {
     }
 
     .container-about-6 h1 {
-        width: 100%;
+        width: 90%;
         height: fit-content;
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
+        font-size: 22px;
         line-height: 36px;
     }
 }
