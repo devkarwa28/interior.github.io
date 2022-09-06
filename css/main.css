@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 .cssload-loader {
   position: relative;
   left: calc(50% - 31px);
@@ -100,4 +102,134 @@
   100% {
     -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.input-control {
+  margin-bottom: 39px;
+  margin-left: auto;
+  margin-top: 0px;
+  width: 466px;
+  position: relative;
+}
+
+input {
+  position: relative;
+  border: 1px solid black;
+  font-family: 'Jost', sans-serif;
+  font-size: 22px;
+  width: 100%;
+  padding-bottom: 6px;
+  border-radius: 5px;
+  font-weight: 400;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px !important;
+
+}
+.input-l{
+  padding-bottom: 108px;
+}
+input.bottom-border {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  font-family: 'Jost', sans-serif;
+  height: fit-content;
+}
+input::-moz-placeholder {
+  color: black;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+}
+input:-ms-input-placeholder {
+  color: black;
+  -ms-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+}
+input::placeholder {
+  color: black;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+}
+input:focus::-moz-placeholder {
+  -moz-transition: opacity 0.2s 0.1s ease-out;
+  transition: opacity 0.2s 0.1s ease-out;
+  opacity: 1;
+}
+input:focus:-ms-input-placeholder {
+  -ms-transition: opacity 0.2s 0.1s ease-out;
+  transition: opacity 0.2s 0.1s ease-out;
+  opacity: 1;
+}
+input:focus::placeholder {
+  transition: opacity 0.2s 0.1s ease-out;
+  opacity: 1;
+}
+
+label {
+  font-size: 22px;
+  pointer-events: none;
+  position: absolute;
+  top: -9px;
+  left: 11px;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+span.border {
+  position: absolute;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  border-bottom: 2px solid black;
+  transition: width 0.2s ease-out;
+}
+span.border--failed {
+  width: 100%;
+  border-bottom: 1px solid #dc2932;
+}
+span.border--failed ~ label {
+  color: #dc2932;
+}
+
+input.input--focused ~ span.border {
+  width: 100%;
+}
+input.input--focused + label {
+  color: black;
+  font-size: 14px;
+  top: -16px;
+  left: 1px;
+  font-weight: 400;
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+input.input--focused + label.failed {
+  color: #dc2932;
+}
+
+.submit {
+  padding: 8px 14px;
+  font-family: 'Jost', sans-serif;
+  border: none;
+  background: #292F36;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
+.submit:hover, .submit:active {
+  background-color: #7dcf9e;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  width: 62%;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

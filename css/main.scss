@@ -188,3 +188,119 @@
 		-moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
 	}
 }
+// input
+$duration: 0.2s;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.input-control {
+  max-width: 446px;
+  position: relative;
+  // overflow-x: hidden;
+}
+
+input {
+  position: relative;
+  border: 2px solid black;
+  font-family: inherit;
+  font-size: 22px;
+  width: 100%;
+  padding: 10px 6px;
+  border-radius: 5px;
+  font-weight: 400;
+  outline: none;
+  transition: all $duration ease-in-out;
+  
+  &.bottom-border {
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+  }
+  
+  &::placeholder {
+    color: black;
+    transition: opacity $duration ease-out; 
+    opacity: 0;
+  }
+  
+  &:focus::placeholder {
+    transition: opacity $duration 0.1s ease-out; 
+    opacity: 1;
+  }
+}
+
+
+label {
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  color: black;
+  transition: all $duration ease-in-out;
+}
+
+span.border {
+  position: absolute;
+  width: 0%;
+  left: 0;
+  bottom: 0;
+  border-bottom: 2px solid #292F36;
+  // transform: translateX(-100%);
+  transition: width $duration ease-out;
+  
+  &--failed {
+    width: 100%;
+    border-bottom: 2px solid $red;
+    
+    & ~ label {
+      color: $red;
+    }
+  }
+}
+
+input.input--focused {
+  ~ span.border {
+    width: 100%;
+  }
+  
+  + label {
+    color: $green;
+    font-size: 14px;
+    top: -12px;
+    left: 1px;
+    font-weight: 700;
+    background-color: #ffffff;
+    padding: 0 5px;
+    
+    &.failed {
+      color: $red;
+    }
+  }
+}
+
+.submit {
+  padding: 8px 14px;
+  font-family: inherit;
+  border: none;
+  background: $green;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: $duration;
+  
+  &:hover,
+  &:active {
+    background-color: lighten($green, 5%);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  }
+}
+
+hr {
+  width: 62%;
+  margin: 0 auto;
+}
