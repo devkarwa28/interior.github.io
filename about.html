@@ -32,6 +32,13 @@
 </head>
 
 <body>
+    <!-- loader -->
+    <div class="cssload-loader" id="loader">
+        <div class="cssload-inner cssload-one"></div>
+        <div class="cssload-inner cssload-two"></div>
+        <div class="cssload-inner cssload-three"></div>
+    </div>
+    <!-- loader ended -->
     <!-- header started -->
     <header class="container-fluid px-0">
         <div class="bg-header-about">
@@ -294,7 +301,7 @@
         </div>
     </section>
     <!-- section 6 ended-->
-    
+
     <!-- footer started -->
     <footer class="container-fluid">
         <div class="container">
@@ -398,6 +405,11 @@
             $(this).removeClass('input--focused')
         }
     }) 
+    var preloder = document.getElementById("loader");
+
+    window.addEventListener("load", function () {
+        preloder.style.display = "none";
+    });
 </script>
 
 </html>
