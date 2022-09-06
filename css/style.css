@@ -960,3 +960,26 @@ margin-bottom: 66px;
     margin: auto !important;
     margin-bottom: 42px !important;
 }
+.section6-about{
+    padding-top: 112px;
+}
+.container-about-6{
+    background-color: #F4F0EC;
+    padding-top: 73px;
+    padding-bottom: 75px;
+    border-radius: 60px;
+    text-align: center;
+}
+.container-about-6 h1{
+    width: 847px;
+height: 82px;
+font-family: var(--font2);
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+color: var(--bg-main-color2);
+margin: auto;
+margin-top: 8px;
+}
