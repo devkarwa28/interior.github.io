@@ -232,6 +232,7 @@ margin: auto;
 .submit:hover, .submit:active {
   background-color: transparent;
   border: 1px solid #292F36;
+  color: #292F36;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 

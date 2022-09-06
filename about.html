@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/reponsive.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -121,7 +122,7 @@
     <section class="container-fluid section2-about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-lg-7 sm-none md-none">
                     <img src="images/about-2.png" alt="">
                 </div>
                 <div class="col-lg-5">
@@ -135,6 +136,9 @@
                             Our Concept<i class="fa-solid fa-arrow-right"></i>
                         </button>
                     </div>
+                </div>
+                <div class="col-lg-7 d-lg-none">
+                    <img src="images/about-2.png" alt="">
                 </div>
 
             </div>
@@ -151,25 +155,33 @@
                 diverse: large and small, private and public, for-profit and nonprofit.
             </p>
             <div class="row">
-                <div class="col-lg-3">
-                    <img src="images/team1.png" alt="" class="">
+                <div class="col-md-6 col-lg-3">
+                    <div class="sec3-about-card">
+                        <img src="images/team1.png" alt="" class="">
                     <h2>Martin Devan</h2>
                     <span>New York, USA</span>
+                    </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
+                   <div class="sec3-about-card">
                     <img src="images/team2.png" alt="">
                     <h2>Martin Devan</h2>
                     <span>New York, USA</span>
+                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
+                  <div class="sec3-about-card">
                     <img src="images/team3.png" alt="">
                     <h2>Martin Devan</h2>
                     <span>New York, USA</span>
+                  </div>
                 </div>
-                <div class="col-lg-3">
-                    <img src="images/team4.png" alt="">
+                <div class="col-md-6 col-lg-3">
+                    <div class="sec3-about-card">
+                        <img src="images/team4.png" alt="">
                     <h2>Martin Devan</h2>
                     <span>New York, USA</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -245,29 +257,29 @@
             </h1>
             <form action="">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6 col-lg-6">
                     <div class="input-control">
                         <input type="text" id="input--name" class='bottom-border'>
                         <label for="input--name">Name</label>
                         <span class="border"></span>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="input-control ms-2">
+                <div class="col-md-6 col-lg-6">
+                    <div class="input-control ms-lg-2">
                         <input type="text" id="input--name" class='bottom-border'>
                         <label for="input--name">Email</label>
                         <span class="border"></span>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 col-lg-6">
                     <div class="input-control">
                         <input type="text" id="input--name" class='bottom-border'>
                         <label for="input--name">Phone</label>
                         <span class="border"></span>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="input-control ms-2">
+                <div class="col-md-6 col-lg-6">
+                    <div class="input-control ms-lg-2">
                         <input type="text" id="input--name" class='bottom-border'>
                         <label for="input--name">Subject</label>
                         <span class="border"></span>
@@ -281,7 +293,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="d-lg-flex justify-content-lg-center">
+                    <div class="d-flex justify-content-center">
                         <input type="submit" value="Submit" class="submit">
                     </div>
                 </div>
@@ -294,7 +306,7 @@
     <!-- section 5 started -->
 
     <!-- section 6 started -->
-    <section class="section6-about">
+    <section class="section6-about container-fluid">
         <div class="container container-about-6">
             <img src="images/quoute.png" alt="" class="">
             <h1>Your Home should tell the story of who you are, and be a Collection of what you Love.</h1>
@@ -355,21 +367,11 @@
         </div>
     </footer>
     <!-- footer ended -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section class="container-fluid copyright-section">
+        <div class="container">
+            <h1>Copyright © 2022 interior | Designed & Developed by Team Techish</h1>
+        </div>
+    </section>
 
 
 
