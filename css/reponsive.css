@@ -737,3 +737,298 @@ padding-bottom: 70px;
     width: 100%;
 }
 }
+/* services  */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .header-content-about {
+      margin-left: 35px;
+      padding-top: 86px;
+  }
+
+  .header-content-about h1 {
+      font-family: var(--font2);
+      width: 100%;
+      height: fit-content;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 16px;
+  }
+
+  .section1-about {
+      padding-top: 70px;
+  }
+
+  .sec1-about-content h1 {
+      width: 100%;
+      height: fit-content;
+      font-size: 46px;
+  }
+
+  .sec1-about-content p {
+      width: 100%;
+      height: fit-content;
+      font-size: 20px;
+      line-height: 28px;
+  }
+
+  .sec1-about-content button {
+      margin-bottom: 32px;
+  }
+
+  .section1-about img {
+      width: 100%;
+  }
+
+  .section2-about {
+      padding-top: 70px;
+  }
+
+  .section2-about img {
+      width: 100%;
+  }
+
+  .section3-about {
+      margin-top: 70px;
+      padding-top: 60px;
+      height: fit-content;
+  }
+
+  .section3-about h1 {
+      width: 100%;
+      height: 66px;
+      font-size: 46px;
+  }
+
+  .section3-about p {
+      width: 100%;
+      height: fit-content;
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  .sec3-about-card {
+      margin-bottom: 24px;
+  }
+
+  .section3-about h2 {
+      width: 100%;
+      height: fit-content;
+      margin-top: 8px;
+      font-size: 22px;
+  }
+
+  .section3-about span {
+      margin-top: 0px;
+  }
+
+  .section5-about {
+      padding-top: 80px;
+  }
+
+  .section5-about h1 {
+      width: 100%;
+      height: fit-content;
+      font-size: 40px;
+      line-height: 50px;
+  }
+
+  .input-control {
+      width: 100% !important;
+      margin-bottom: 42px !important;
+  }
+
+  label {
+      font-size: 20px !important;
+  }
+
+  input {
+      font-size: 19px;
+  }
+
+  input.input--focused+label {
+      font-size: 16px !important;
+  }
+
+  .input-l {
+      padding-bottom: 0px !important;
+  }
+
+  .section6-about {
+      padding-top: 80px;
+  }
+
+  .container-about-6 {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      border-radius: 40px;
+  }
+
+  .container-about-6 h1 {
+      width: 90%;
+      height: fit-content;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 36px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .header-content-about {
+      margin-left: 75px;
+      padding-top: 65px;
+  }
+
+  .section1-about {
+      padding-top: 75px;
+  }
+
+  .sec1-about-content button {
+      margin-bottom: 40px;
+  }
+
+  .sec1-about-content h1 {
+      width: 100%;
+      height: fit-content;
+      font-size: 48px;
+      margin-bottom: 12px;
+  }
+
+  .sec1-about-content p {
+      width: 666px;
+      height: fit-content;
+      font-size: 22px;
+      line-height: 32px;
+      font-size: 20px;
+      margin-bottom: 40px;
+  }
+
+  .section2-about {
+      padding-top: 75px;
+  }
+
+  .section3-about {
+      margin-top: 80px;
+      padding-top: 65px;
+      height: fit-content;
+  }
+
+  .section3-about h1 {
+      width: 100%;
+      height: fit-content;
+  }
+
+  .section3-about p {
+      width: 100%;
+  }
+
+  .sec3-about-card {
+      margin-bottom: 32px;
+  }
+
+  .section3-about h2 {
+      width: 100%;
+      height: fit-content;
+      margin-top: 8px;
+  }
+
+  .section3-about span {
+      width: 100%;
+      height: fit-content;
+      margin-top: 0px;
+  }
+
+  .section5-about {
+      padding-top: 90px;
+  }
+
+  .section5-about h1 {
+      width: 100%;
+      height: fit-content;
+      font-size: 46px;
+  }
+
+  .input-control {
+      width: 100% !important;
+      margin-bottom: 42px !important;
+  }
+
+  label {
+      font-size: 20px !important;
+  }
+
+  input {
+      font-size: 19px;
+  }
+
+  input.input--focused+label {
+      font-size: 16px !important;
+  }
+
+  .input-l {
+      padding-bottom: 0px !important;
+  }
+
+  .section6-about {
+      padding-top: 80px;
+  }
+
+  .container-about-6 {
+      background-color: #F4F0EC;
+      padding-top: 65px;
+      padding-bottom: 65px;
+      border-radius: 40px;
+  }
+
+  .container-about-6 h1 {
+      width: 90%;
+      height: fit-content;
+  }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  .header-content-about {
+      margin-left: 80px;
+    }
+    .section1-about {
+      padding-top: 90px;
+    }
+    .sec1-about-content {
+      margin-top: 0px;
+    }
+    .section1-about img{
+      width: 100%;
+      height: 100%;
+    }
+    .sec1-about-content h1 {
+      width: 100%;
+      font-size: 48px;
+    }
+    .sec1-about-content p {
+      width: 100%;
+      height: fit-content;
+      margin-bottom: 40px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .section2-about img{
+      width: 100%;
+      height: 100%;
+    }
+    .section2-about .sec1-about-content{
+      margin-left: 10px;
+    }
+    .section3-about {
+      margin-top: 90px;
+      padding-top: 70px;
+      height: fit-content;
+      padding-bottom: 50px;
+    }
+    .section5-about {
+      padding-top: 90px;
+    }
+    .section6-about {
+      padding-top: 90px;
+    }
+}
