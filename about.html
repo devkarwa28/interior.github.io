@@ -25,6 +25,7 @@
     <!-- Owl Carosule css link -->
     <link rel="stylesheet" href="css/owl.carousel.min3.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min5.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!-- Owl carosoule js links -->
     <script src="js/jquery.min.js"></script>
@@ -440,6 +441,23 @@
         crossorigin="anonymous"></script>
 </body>
 <script>
+     $(document).ready(function () {
+        var owl = $('.owl-carousel5');
+        owl.owlCarousel({
+            items: 5,
+            margin: 40,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    })
     $('.input-control input').on('focus', function () {
         if (!$(this).hasClass('input--focused')) {
             $(this).addClass('input--focused');
