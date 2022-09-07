@@ -890,7 +890,11 @@ footer ul li:hover a::after {
     border: 0px;
     color: #FFFFFF;
 }
-
+.sec1-about-content button:hover{
+    background: transparent;
+    border: 1px solid var(--bg-main-color1);
+    color: var(--bg-main-color1);
+}
 .section2-about {
     padding-top: 136px;
 }
