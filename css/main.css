@@ -5,8 +5,8 @@
   left: calc(50% - 31px);
   width: 100px;
   height: 100px;
-  margin: 130px 0;
   perspective: 780px;
+  top: 45%;
 }
 
 .cssload-inner {
