@@ -1267,3 +1267,48 @@ footer ul li:hover a::after {
     }
 
 }
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    .header-content-about {
+        margin-left: 80px;
+      }
+      .section1-about {
+        padding-top: 90px;
+      }
+      .sec1-about-content {
+        margin-top: 0px;
+      }
+      .section1-about img{
+        width: 100%;
+        height: 100%;
+      }
+      .sec1-about-content h1 {
+        width: 100%;
+        font-size: 48px;
+      }
+      .sec1-about-content p {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+        font-size: 18px;
+        line-height: 28px;
+      }
+      .section2-about img{
+        width: 100%;
+        height: 100%;
+      }
+      .section2-about .sec1-about-content{
+        margin-left: 10px;
+      }
+      .section3-about {
+        margin-top: 90px;
+        padding-top: 70px;
+        height: fit-content;
+        padding-bottom: 50px;
+      }
+      .section5-about {
+        padding-top: 90px;
+      }
+      .section6-about {
+        padding-top: 90px;
+      }
+}
