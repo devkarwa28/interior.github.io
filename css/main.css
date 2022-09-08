@@ -183,7 +183,7 @@ span.border {
   width: 0%;
   left: 0;
   bottom: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #CDA274;
   transition: width 0.2s ease-out;
 }
 span.border--failed {
@@ -208,6 +208,7 @@ input.input--focused + label {
 }
 input.input--focused + label.failed {
   color: #dc2932;
+
 }
 
 .submit {
@@ -225,7 +226,6 @@ input.input--focused + label.failed {
   padding: 22px 32px;
 width: 207px;
 height: 70px;
-margin: auto;
 }
 .submit:hover, .submit:active {
   background-color: transparent;
