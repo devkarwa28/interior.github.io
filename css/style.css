@@ -706,7 +706,7 @@ footer {
 
 .footer-1 p {
     width: 306px;
-    height: 113px;
+    height: 81px;
     font-family: var(--font1);
     font-style: normal;
     font-weight: 400;
@@ -775,7 +775,8 @@ footer ul li:hover a::after {
     font-size: 22px;
     line-height: 32px;
     color: var(--bg-main-color1);
-    margin-bottom: 55px;
+    margin-bottom: 51px;
+    margin-top: 31px;
 }
 
 .footer-4 h3 {
@@ -787,7 +788,7 @@ footer ul li:hover a::after {
     font-size: 22px;
     line-height: 32px;
     color: var(--bg-main-color1);
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 .footer-4 span {
@@ -1314,11 +1315,19 @@ margin: auto 0px;
 margin-left: 16px;
 }
 .social-media{
-    margin-left: 34px;
+    /* margin-left: 34px; */
+    width: fit-content;
+    margin: auto;
     margin-top: 9px;
+    background: #FFFFFF;
+    border: 5px solid white;
+    /* display: flex;
+    justify-content: space-evenly; */
+    padding: 8px 0px;
 }
 .social-media a{
-    margin-right: 31px;
+    margin: 0px 16px;
+    text-align: center;
 }
 .input-control-contact{
     width: 100% !important;
