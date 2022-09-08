@@ -66,6 +66,7 @@ margin-bottom: 0px;
       .sec-1-card {
         height: fit-content;
         width: 328px;
+        height: fit-content;
         border-radius: 32px;
         padding: 36px;
         border-radius: 32px;
@@ -80,6 +81,7 @@ margin-bottom: 0px;
         width: 100%;
         height: fit-content;
         font-size: 19px;
+        height: fit-content;
         line-height: 27px;
         text-align: center;
         margin-bottom: 0px;
@@ -353,7 +355,7 @@ padding-top: 7px;
   padding-top: 70px;
 }
 .sec-1-card {
-  height: 326px;
+  height:fit-content;
   width: 420px;
   border-radius: 32px;
   padding: 60px 16px 30px 16px;
@@ -363,7 +365,8 @@ padding-top: 7px;
 .sec-1-card p{
   margin: auto;
   margin-bottom: 0px;
-  width: 100%;
+  width: 95%;
+  height: fit-content;
 }
 .section2 {
   padding-top: 60px;
@@ -758,7 +761,9 @@ padding-bottom: 70px;
   .section1-about {
       padding-top: 70px;
   }
-
+  .section1-about img {
+    border-radius: 16px;
+  }
   .sec1-about-content h1 {
       width: 100%;
       height: fit-content;
@@ -786,8 +791,8 @@ padding-bottom: 70px;
 
   .section2-about img {
       width: 100%;
+      border-radius: 16px;
   }
-
   .section3-about {
       margin-top: 70px;
       padding-top: 60px;
@@ -894,7 +899,9 @@ padding-bottom: 70px;
       font-size: 48px;
       margin-bottom: 12px;
   }
-
+  .section1-about img {
+    border-radius: 32px;
+  }
   .sec1-about-content p {
       width: 666px;
       height: fit-content;
@@ -907,7 +914,9 @@ padding-bottom: 70px;
   .section2-about {
       padding-top: 75px;
   }
-
+  .section2-about img {
+    border-radius: 32px;
+  }
   .section3-about {
       margin-top: 80px;
       padding-top: 65px;
