@@ -1153,7 +1153,8 @@ text-align: left;
     .sec2-services-container {
         background: #F4F0EC;
         border-radius: 30px;
-        padding-bottom: 55px;
+        padding-bottom: 48px;
+        padding-top: 48px;
     }
     .sec2-service-main-img{
         margin: 0px;
@@ -1173,9 +1174,9 @@ text-align: left;
     .section2-services p {
         width: 100%;
         height: fit-content;
-        font-size: 20px;
+        font-size: 19px;
         line-height: 28px;
-        margin-bottom: 32px;
+        margin-bottom: 40px;
     }
     .sec2-services-content h2 {
         width: 100%;
@@ -1188,7 +1189,7 @@ text-align: left;
         margin-left: 0px;
       }
       .margin-104 {
-        margin-bottom: 32px;
+        margin-bottom: 40px;
       }
       .sec2-services-content {
         margin-top: 32px;
@@ -1197,5 +1198,69 @@ text-align: left;
         width: 100%;
         height: fit-content;
         font-size: 46px;
+      }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .sec2-services-container {
+        background: #F4F0EC;
+        border-radius: 40px;
+        padding-top: 72px;
+        padding-bottom: 72px;
+      }
+    .margin-104 {
+        margin-bottom: 70px;
+      }
+.section2-services p {
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    margin-bottom: 48px;
+}
+.sec2-service-main-img {
+    margin-right: 0px;
+    float: none;
+    border-radius: 0px 100px 0px 230px;
+    width: 100%;
+  }
+  .sec2-services-content {
+    margin-top: 40px;
+  }
+  .sec2-services-content h2 {
+    width: 100%;
+    height: fit-content;
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }  
+  .sec2-services-content p {
+    width: 100%;
+    height: fit-content;
+    font-size: 19px;
+    line-height: 32px;
+    }
+    .sec2-service-main-img2{
+        margin-left: 0px;
+        float: none;
+        border-radius: 0px 100px 0px 230px;
+        width: 100%;
+      }
+      .sec2-services-content2 {
+        margin-top: 40px;
+        margin-left: 10px;
+      }
+      .sec2-services-content2 h2 {
+        width: 100%;
+        height: fit-content;
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+      }
+      .sec2-services-content2 p {
+        width: 100%;
+        height: fit-content;
+        font-size: 19px;
+        line-height: 28px;
       }
 }
