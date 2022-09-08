@@ -741,7 +741,7 @@ padding-bottom: 70px;
     width: 100%;
 }
 }
-/* services  */
+ /* about us */ 
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .header-content-about {
       margin-left: 35px;
@@ -784,6 +784,7 @@ padding-bottom: 70px;
 
   .section1-about img {
       width: 100%;
+      height: 250px;
   }
 
   .section2-about {
@@ -793,6 +794,7 @@ padding-bottom: 70px;
   .section2-about img {
       width: 100%;
       border-radius: 16px;
+      height: 250px;
   }
   .section3-about {
       margin-top: 70px;
