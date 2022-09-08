@@ -896,6 +896,7 @@ footer ul li:hover a::after {
     border-radius: 18px;
     border: 0px;
     color: #FFFFFF;
+    font-family: var(--font1);
 }
 .sec1-about-content button:hover{
     background: transparent;
