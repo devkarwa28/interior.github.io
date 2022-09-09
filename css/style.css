@@ -755,7 +755,7 @@ footer h1 {
 }
 
 footer li {
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .footer-3 {
