@@ -12,6 +12,9 @@
 .overlay{
     background: none;
 }
+.w-80{
+    width: 80% !important;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -35,7 +38,9 @@ a {
 a:hover {
     color: inherit;
 }
-
+.offcanvas-header img{
+    width: 120px;
+}
 nav {
     display: flex;
     background: #FFFFFF;
@@ -1337,4 +1342,86 @@ margin-left: 16px;
 }
 .margin-58{
     margin-top: 18px;
+}
+.padding-top-32{
+    padding-top: 32px;
+}
+/* contact responsive */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .contact-box {
+        border-radius: 25px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    .section1-contact h1 {
+        width: 100%;
+        height: fit-content;
+        font-family: var(--font2);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .contact-row img{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-row{
+        margin: auto;
+        width: 25;
+        margin-bottom: 32px;
+    }
+    .contact-row h2 {
+        width: 100%;
+        height: fit-content;
+        font-size: 19px;
+        line-height: 35px;
+        color: var(--bg-main-color1);
+        margin: auto 0px;
+        margin-left: 12px;
+      }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .section1-contact h1 {
+        width: 100%;
+        height: fit-content;
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .contact-box {
+        width: 400px;
+        margin: auto;
+        border-radius: 25px;
+    }
+    .padding-top-32 {
+        padding-top: 75px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    .contact-row {
+        margin-left: 16px;
+    }
+    .contact-row img{
+        width: 55px;
+height: 55px;
+    }
+    .contact-row h2 {
+        width: fit-content;
+        height: 35px;
+        font-size: 19px;
+        margin: auto 0px;
+        margin-left: 8px;
+      }
+      .contact-box {
+        background: #F4F0EC;
+        border-radius: 25px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      .padding-top-32 {
+        padding-top: 16px;
+      }
+      .sec8-container {
+        border-radius: 40px;
+      }
 }
