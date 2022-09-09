@@ -1329,6 +1329,7 @@ margin-left: 16px;
     /* display: flex;
     justify-content: space-evenly; */
     padding: 8px 0px;
+    border-radius: 10px;
 }
 .social-media a{
     margin: 0px 16px;
