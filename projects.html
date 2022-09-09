@@ -46,54 +46,54 @@
     <!-- header started -->
     <header class="container-fluid px-0">
         <div class="bg-header-services">
-          <div class="overlay">
-              <!-- nav bar -->
-              <nav class="container-fluid px-lg-0">
-                <img src="images/Group 1.svg" alt="">
-                <!-- offcanvas -->
-                <div class="offcanvas-btn d-lg-none d-xl-none">
-                    <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                        aria-controls="offcanvasExample">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
+            <div class="overlay">
+                <!-- nav bar -->
+                <nav class="container-fluid px-lg-0">
+                    <img src="images/Group 1.svg" alt="">
+                    <!-- offcanvas -->
+                    <div class="offcanvas-btn d-lg-none d-xl-none">
+                        <button class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                            aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
 
-                    <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
-                        aria-labelledby="offcanvasExampleLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-                                <img src="images/Group 1.svg" alt="">
-                            </h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="p-0">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="services.html"> Services</a></li>
-                                <li><a href="projects.html">Projects</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                                    <img src="images/Group 1.svg" alt="">
+                                </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="p-0">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="services.html"> Services</a></li>
+                                    <li><a href="projects.html">Projects</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
 
-                            </ul>
+                                </ul>
 
+                            </div>
                         </div>
                     </div>
+                    <ul class="p-0 sm-none md-none">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html"> Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <!-- nav bar ended -->
+                <div class="header-content-about">
+                    <h1>Our Projects</h1>
+                    <span><a href="index.html">Home</a>&nbsp; / <a href="projects.html">Projects</a> </span>
                 </div>
-                <ul class="p-0 sm-none md-none">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html"> Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-            <!-- nav bar ended -->
-            <div class="header-content-about">
-                <h1>Our Projects</h1>
-                <span><a href="index.html">Home</a>&nbsp; / <a href="projects.html">Projects</a> </span>
-            </div>
 
-          </div>
+            </div>
         </div>
     </header>
     <!-- header ended -->
@@ -230,14 +230,14 @@
                         </div>
                     </div>
                 </div>
-              
+
             </div>
         </div>
     </section>
     <!-- section 5 ended -->
 
-      <!-- section 8  started-->
-      <section class="container-fluid  section8-services section8">
+    <!-- section 8  started-->
+    <section class="container-fluid  section8-services section8">
         <div class="container sec8-container">
             <h1>Get a free project quote. interior</h1>
             <h2>Contact Us & Get a Free Consultation</h2>
@@ -343,7 +343,7 @@
 <script src="js/app.js"></script>
 <script src="js/lightbox.js"></script>
 <script>
-     $(document).ready(function () {
+    $(document).ready(function () {
         var owl = $('.owl-carousel5');
         owl.owlCarousel({
             items: 5,
@@ -368,7 +368,7 @@
         if ($(this).val() === '' && $(this).hasClass('input--focused')) {
             $(this).removeClass('input--focused')
         }
-    }) 
+    })
     var preloder = document.getElementById("loader");
 
     window.addEventListener("load", function () {
