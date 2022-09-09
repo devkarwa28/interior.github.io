@@ -205,7 +205,7 @@ nav ul li:hover a::after,a{
 
 .sec-1-card h1 {
     text-align: center;
-    height: 36px;
+    height: fit-content;
     font-family: var(--font2);
     font-style: normal;
     font-weight: 400;

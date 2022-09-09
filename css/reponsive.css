@@ -285,6 +285,7 @@ margin-bottom: 0px;
         margin: auto;
         margin-top: 18px;
         width: 100%;
+        height: fit-content;
       }
       .footer-2 a {
         font-size: 20px;
@@ -322,6 +323,14 @@ margin-bottom: 0px;
         text-align: center;
         margin-top: 24px;
         margin-bottom: 24px;
+      }
+      .social-media {
+        margin: auto;
+        margin-right: auto;
+      }
+      .section8 button {
+        padding: 0px;
+        width: 215px;
       }
 }
 @media only screen and (min-width: 576px) and (max-width: 992px) {
