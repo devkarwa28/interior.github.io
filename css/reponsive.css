@@ -151,7 +151,7 @@ margin-bottom: 0px;
       }
       .sec3-card {
         height: 278px;
-        width: 328px;
+        width: 300px;
         border-radius: 32px;
         padding: 19px;
         background-color: #FFFFFF;
@@ -204,12 +204,13 @@ margin-bottom: 0px;
         font-size: 18px;
       }
       .sec5-card-btn {
-        width: 60px;
-        height: 60px;
-        display: grid;
-        align-items: center;
-        padding: 0px;
-        justify-content: center;
+        width: 50px;
+height: 50px;
+display: grid;
+align-items: center;
+padding: 0px;
+justify-content: center;
+margin: auto 0px;
       }
       .section6 {
         margin-top: 40px;
@@ -250,6 +251,7 @@ margin-bottom: 0px;
         height: 40px;
         border: 0px;
         border-radius: 50%;
+        padding-bottom: 5px;
       }
       .sec7-card button img{
         width: 8px;
@@ -570,11 +572,10 @@ padding-bottom: 70px;
 }
 .footer-1{
   display: grid;
-  justify-content: center;
   margin-bottom: 32px;
 }
 .footer-1 p {
-  width: 100%;
+  width: 70%;
   height: fit-content;
 }
 .footer-4 {

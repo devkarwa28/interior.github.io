@@ -33,11 +33,12 @@
 }
 a {
     text-decoration: none;
+    transition: 300ms;
 }
 
-a:hover {
+/* a:hover {
     color: inherit;
-}
+} */
 .offcanvas-header img{
     width: 120px;
 }
@@ -50,11 +51,11 @@ nav {
 }
 
 nav img {
-    margin-left: 120px;
+    margin-left: 0px;
 }
 
 nav ul {
-    margin-left: 484px;
+    margin-left: 0px;
     display: flex;
     margin-top: 2px;
     margin-bottom: 0px;
@@ -77,9 +78,15 @@ nav ul li a {
     position: relative;
 }
 
-a:hover {
-    color: inherit !important;
+nav ul li:hover .color-a{
+    color: var(--bg-main-color2) !important;
 }
+footer ul li:hover .color-a{
+    color: var(--bg-main-color2) !important;
+}
+/* a:hover {
+    color: inherit !important;
+} */
 
 a::after {
     position: absolute;
@@ -92,7 +99,7 @@ a::after {
     transition: all 0.4s ease-in-out;
 }
 
-nav ul li:hover a::after,a{
+nav ul li:hover a::after,nav ul li a{
     width: 100%;
     left: 0;
 }
@@ -596,6 +603,9 @@ nav ul li:hover a::after,a{
     border: 1px solid #F4F0EC;
     margin-bottom: 30px;
 }
+.sec7-card:hover .white{
+    background: #FFFFFF;
+}
 
 .sec7-card .main-img {
     width: 100%;
@@ -826,11 +836,11 @@ footer ul li:hover a::after {
 .bg-header-about {
     width: 100%;
     height: 350px;
-    background: url(../images/about.png)center;
+    background: url(../images/about.png)center no-repeat;
+    background-size: cover;
 }
 
 .header-content-about {
-    margin-left: 120px;
     padding-top: 47px;
 }
 
@@ -1043,9 +1053,10 @@ footer ul li:hover a::after {
 
 /* services */
 .bg-header-services{
-    background: url(../images/services.png)center;
+    background: url(../images/services.png)center no-repeat;
     width: 100%;
     height: 350px;
+    background-size: cover;
 }
 .margin-40{
     margin-bottom: 40px;
@@ -1361,7 +1372,7 @@ margin-left: 16px;
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
-        line-height: 52px;
+        line-height: 44px;
     }
     .contact-row img{
         width: 50px;
