@@ -22,11 +22,14 @@
     list-style: none;
 }
 .loader{
+    width: 100vw;
     height: 100vh;
     z-index: 10;
     display: grid;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    background-color: #FFFFFF;
 }
 .item-center {
     display: flex !important;
