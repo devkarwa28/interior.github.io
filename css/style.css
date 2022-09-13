@@ -1460,7 +1460,7 @@ height: 55px;
 }
 .hover-translate-t:hover{
     transform: translateY(-8px);
-    background-color: 	#00aaee;
+    background-color: rgb(29, 155, 240);
     color: white;
 }
 .hover-translate-f{
@@ -1486,4 +1486,7 @@ height: 55px;
     transform: translateY(-8px);
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     color: white;
+}
+.bg-white-hover{
+    flex-grow: ;
 }
