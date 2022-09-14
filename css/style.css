@@ -1488,3 +1488,71 @@ height: 55px;
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
     color: white;
 }
+.preview-img{
+    width: 100%;
+    height: 600px;
+}
+.boder-pre{
+    border-bottom: 2px solid var(--bg-main-color2);
+}
+.perview-sec1{
+    padding-top: 70px;
+}
+.contact-box1{
+    width: 100%;
+    background: #F4F0EC;
+    padding: 32px 16px;
+    text-align: center;
+    margin: auto 0px ;
+    top: 25px;
+}
+.contact-box1 h1{
+    width: 100%;
+    font-family: var(--font2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--bg-main-color1);
+    margin-bottom: 24px;
+}
+.contact-box1 a{
+    text-decoration: none;
+width: 100%;
+font-family: var(--font1);
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: var(--bg-main-color1);
+margin-bottom: 16px;
+}
+.contact-box1 span{
+    font-family: var(--font1);
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: var(--bg-main-color1);
+}
+.desc{
+    width: 100%;
+}
+.desc h1{
+    font-size: 22px;
+font-weight: 600;
+line-height: 1.5;
+font-family: var(--font2);
+}
+.desc p{
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: var(--font1);
+    color: var(--bg-main-color1);
+}
+
+.border2{
+    width: 100%;
+    border: 1px solid var(--bg-main-color2);
+}

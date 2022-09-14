@@ -304,3 +304,49 @@ hr {
   width: 62%;
   margin: 0 auto;
 }
+
+@mixin query-at($breakpoint) {
+  @media (min-width: $breakpoint) { @content; }
+}
+
+.image-wrap{
+  width: 304px; height: 808px;
+  position: absolute; 
+  top: 50%; left: 50%;
+  @include transform( translateY(-50%) translateX(-50%));
+  @include box-shadow(1px 3px 8px rgba(black, 0.5) );
+
+  @include query-at(550px) {
+    width: 608px; height: 404px;
+    
+    .image{ 
+      width: 50% !important; height: 100% !important;
+      clear: none !important; 
+    }
+  }
+  
+  .image{
+    width: 100%; height: 50%;
+    background: url($url) no-repeat center center;
+    float: left;
+    margin: 0; padding: 0;
+    @include box-sizing(border-box);
+    
+    &:first-child { border-right: 1px solid #342420 };
+    &.result      { background-position: 50% 25%; }
+    
+    &.viewer{
+      @include background-size(100%);
+      
+      .magnifier{
+        position: absolute; top: 20%; left: 45%;
+        width: 43px; height: 60px; 
+        background: url(../images/sec5-1.png);
+        opacity: 0.6;
+        cursor: move;
+      }
+    }
+    
+  }  
+  
+}
