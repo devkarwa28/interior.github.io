@@ -1556,3 +1556,7 @@ font-family: var(--font2);
     width: 100%;
     border: 1px solid var(--bg-main-color2);
 }
+.sec5-card-content a{
+    height: fit-content;
+margin: auto 0px;
+}

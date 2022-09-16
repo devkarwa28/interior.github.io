@@ -335,6 +335,36 @@ margin: auto 0px;
         padding: 0px;
         width: 215px;
       }
+      .perview-sec1 {
+        padding-top: 24px;
+      }
+      .preview-img {
+        width: 100%;
+        height: 375px;
+      }
+      .desc p {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 32px;
+      }
+      .contact-box1 h1 {
+        font-size: 32px;
+      }
+      .contact-box1 a {
+        font-size: 22px;
+      }
+      .contact-box1 a img{
+        width: 55px;
+      }
+      .contact-box1 span {
+        font-size: 21px;
+      }
+      .desc h1 {
+        font-size: 22px;
+        font-weight: 593;
+        line-height: 1.5;
+        font-family: var(--font2);
+      }
 }
 @media only screen and (min-width: 576px) and (max-width: 992px) {
   .md-none{
@@ -581,6 +611,17 @@ padding-bottom: 70px;
 }
 .footer-4 {
   margin-left: 0px;
+}
+.contact-box1 {
+  width: 500px;
+  background: #F4F0EC;
+  padding: 32px 16px;
+  text-align: center;
+  margin: auto;
+  top: 25px;
+}
+.desc p {
+  margin-bottom: 32px;
 }
 }
 @media only screen and (min-width: 992px) and (max-width: 1300px) {
