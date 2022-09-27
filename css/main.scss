@@ -23,7 +23,7 @@
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
   &.cssload-one {
-	left: 0%;
+	left: 0% + 50%;
 	top: 0%;
 	animation: cssload-rotate-one 1.15s linear infinite;
 		-o-animation: cssload-rotate-one 1.15s linear infinite;
@@ -231,7 +231,10 @@ input {
   }
 }
 
-
+footer a{
+	font-size: 22px;
+	
+	}
 label {
   font-size: 16px;
   pointer-events: none;
