@@ -617,6 +617,8 @@ nav ul li a {
     padding: 16px 16px;
     border: 1px solid #F4F0EC;
     margin-bottom: 30px;
+    transition: 500ms;
+    transition-timing-function: ease-in;
 }
 
 .sec7-card:hover .white {

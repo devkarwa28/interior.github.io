@@ -8,9 +8,9 @@
         justify-content: center;
     }
     .bg-header {
-        background: url(../images/sm-header.png)center;
+        background: url(../images/header-img.png)center;
         width: 100%;
-        height: 700px;
+        height: 60vh;
         background-size: cover;
         border-radius: 0px;
     }
@@ -42,24 +42,34 @@ padding-top: 7px;
     }
     .header-content{
         margin: 0px;
-        margin-left: 35px;
+        margin-left: 26px;
     }
     .header-content h1 {
-        width: 95%;
-        height: 100px;
-        font-size: 38px;
-line-height: 48px;
+        width: 70%;
+        height: 70px;
+        font-size: 28px;
+line-height: 36px;
 margin-bottom: 0px;
-        /* text-align: center; */
+    }
+    .header-content {
+      padding-top: 48px;
     }
     .header-content p {
         width: 90%;
         /* margin: auto; */
         height: fit-content;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 26px;
         margin-top: 18px;
         /* text-align: center; */
+      }
+      .header-content button {
+        width: 175px;
+        height: 50px;
+        font-size: 16px;
+        padding: 8px 28px;
+        margin-top: 12px;
+        border-radius: 10px;
       }
       .section1 {
         padding-top: 70px;
@@ -96,21 +106,22 @@ margin-bottom: 0px;
       .sec2-content h1 {
         width: fit-content;
         height: fit-content;
-        font-size: 38px;
-        line-height: 45px;
+        font-size: 28px;
+        line-height: 36px;
         margin-bottom: 24px;
         text-align: left;
       }
       .sec2-content p {
         width: 100%;
         height: fit-content;
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 22px;
         margin-bottom: 0px;
         text-align: left;
       }
       .call-pill{
         justify-content: flex-start;
+        margin-top: 38px;
       }
       .call {
         height: 76px;
@@ -124,6 +135,12 @@ margin-bottom: 0px;
     }
       .sec2-content button {
         margin-bottom: 32px;
+        width: 220px;
+        height: 60px;
+        padding: 8px 28px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: 32px;
       }
       .call-num span {
         font-size: 20px;
@@ -141,8 +158,8 @@ margin-bottom: 0px;
         width: 100%;
         height: fit-content;
         margin: auto;
-        font-size: 36px;
-        line-height: 43px;
+        font-size: 26px;
+        line-height: 34px;
         text-align: center;
       }
       .sec3-row {
@@ -161,6 +178,8 @@ margin-bottom: 0px;
       }
       .sec3-card p {
         width: 100%;
+        font-size: 18px;
+        text-align: center;
       }
       .section4 {
         padding-top: 60px;
@@ -169,20 +188,20 @@ margin-bottom: 0px;
         margin: 30px 0px;
       }
       .section5 {
-        padding-top: 70px;
+        padding-top: 40px;
       }
       .section5 h1 {
         width: 100%;
         height: fit-content;
         margin: auto;
-        font-size: 40px;
+        font-size: 34px;
         line-height: 49px;
         margin-bottom: 24px;
       }
       .section5 p {
         width: 100%;
         height: fit-content;
-        font-size: 18px;
+        font-size: 16px;
       }
       .sec5-card-main-img{
         width: 100%;
@@ -216,36 +235,52 @@ margin: auto 0px;
       .section6 {
         margin-top: 40px;
         background: #F4F0EC;
-        padding-bottom: 70px;
-        padding-top: 70px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      .section6 p {
+        font-size: 16px;
+        width: 100%;
+      }
+      .section6 h1 {
+        font-size: 64px;
+        height: auto;
+        line-height: 70px;
       }
       .border-right {
         width: 0px;
-        height: 196px;
+        height: 130px;
         border-right: 0px;
-        border-bottom: 1px solid #CDA274;
+        border-bottom: 0px solid #CDA274;
       }
       .section7 {
         padding-top: 75px;
       }
       .section7 h1{
         width: 100%;
+        font-size: 40px;
       }
       .section7 p {
         width: 100%;
         height: fit-content;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
       }
       .sec7-card{
         height: fit-content;
       }
+      .sec7-card .main-img {
+        height: 225px;
+      }
       .sec7-card h2 {
         width: 100%;
-        font-size: 19px;
+        font-size: 16px;
         height: fit-content;
         margin-bottom: 16px;
         line-height: 24px;
+      }
+      .sec7-card h3 {
+        font-size: 16px;
       }
       .sec7-card button {
         width: 40px;
@@ -257,6 +292,9 @@ margin: auto 0px;
       .sec7-card button img{
         width: 8px;
       }
+      .section8 {
+        padding-top: 50px;
+      }
       .sec8-container {
         border-radius: 30px;
         padding-top: 42px;
@@ -265,17 +303,17 @@ margin: auto 0px;
       .section8 h1 {
         width: 100%;
         height: fit-content;
-        font-size: 26px;
+        font-size: 23px;
         line-height: 32px;
       }
       .section8 h2 {
         margin: auto;
         width: 100%;
         height: fit-content;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 29px;
         text-align: center;
-        margin-bottom: 32px;
+        margin-bottom: 28px;
       }
       footer {
         padding-top: 80px;
@@ -335,6 +373,8 @@ margin: auto 0px;
       .section8 button {
         padding: 0px;
         width: 215px;
+        height: 55px;
+        font-size: 16px;
       }
       .perview-sec1 {
         padding-top: 24px;
