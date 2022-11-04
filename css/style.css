@@ -1236,13 +1236,13 @@ footer ul li:hover a::after {
     .section2-services h1 {
         width: 100%;
         height: fit-content;
-        font-size: 46px;
+        font-size: 34px;
     }
 
     .section2-services p {
         width: 100%;
         height: fit-content;
-        font-size: 19px;
+        font-size: 16px;
         line-height: 28px;
         margin-bottom: 40px;
     }
@@ -1250,8 +1250,9 @@ footer ul li:hover a::after {
     .sec2-services-content h2 {
         width: 100%;
         height: fit-content;
-        font-size: 42px;
-        line-height: 48px;
+        font-size: 34px;
+        line-height: 38px;
+        margin-top: 8px;
     }
 
     .sec2-services-content2 {
@@ -1270,7 +1271,8 @@ footer ul li:hover a::after {
     .sec2-services-content2 h2 {
         width: 100%;
         height: fit-content;
-        font-size: 46px;
+        font-size: 34px;
+        margin-top: 8px;
     }
 }
 
@@ -1452,8 +1454,8 @@ footer ul li:hover a::after {
         font-family: var(--font2);
         font-style: normal;
         font-weight: 400;
-        font-size: 40px;
-        line-height: 44px;
+        font-size: 28px;
+        line-height: 32px;
     }
 
     .contact-row img {
@@ -1471,7 +1473,7 @@ footer ul li:hover a::after {
     .contact-row h2 {
         width: 100%;
         height: fit-content;
-        font-size: 19px;
+        font-size: 16px;
         line-height: 35px;
         color: var(--bg-main-color1);
         margin: auto 0px;
@@ -1662,10 +1664,12 @@ footer ul li:hover a::after {
     height: fit-content;
     margin: auto 0px;
 }
-.container1{
+
+.container1 {
     width: 100%;
     position: relative;
 }
+
 .image {
     width: 100%;
     height: 600px;
@@ -1689,6 +1693,7 @@ footer ul li:hover a::after {
 
     background-repeat: no-repeat;
 }
+
 .zoom-preview {
     height: 400px;
     width: 100%;
