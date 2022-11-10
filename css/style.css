@@ -1206,7 +1206,6 @@ footer ul li:hover a::after {
 .section8-services {
     padding-top: 104px;
 }
-
 @media only screen and (min-width: 200px) and (max-width: 576px) {
     .overlay {
         background: rgba(255, 255, 255, 0.6);
