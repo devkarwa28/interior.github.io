@@ -25,6 +25,7 @@
 
   nav img {
     margin-left: 0px;
+    width: 200px;
   }
 
   .offcanvas-btn button {
@@ -32,7 +33,6 @@
     background-color: transparent;
     font-size: 22px;
     width: 50px;
-    padding-top: 7px;
   }
 
   .offcanvas-btn ul {
@@ -386,6 +386,9 @@
 
   .footer-1 {
     margin-bottom: 32px;
+  }
+  .footer-1 img{
+    width: 270px;
   }
 
   .footer-1 p {
@@ -997,6 +1000,9 @@
     width: 100%;
     height: fit-content;
     font-size: 20px;
+  }
+  .footer-1 img{
+    width: 270px;
   }
 
   .footer-2 a {
